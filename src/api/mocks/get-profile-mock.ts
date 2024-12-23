@@ -3,7 +3,7 @@ import { http, HttpResponse } from 'msw'
 import { GetProfileResponse } from '../get-profile'
 
 export const getProfileMock = http.get<never, never, GetProfileResponse>(
-  '/metrics/me',
+  '/me',
   () => {
     return HttpResponse.json({
       id: 'custom-user-id',

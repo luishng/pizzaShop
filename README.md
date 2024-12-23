@@ -70,6 +70,13 @@ This software a mobile web application, provide a way for the people control you
 - [Lucide](https://lucide.dev/) - Free Icons
 - [Zod](https://zod.dev/) - Schema Validation
 
+**Testing:**
+
+- [Vitest](https://vitest.dev/) - Unit test
+- [Testing Library](https://testing-library.com/) - DOM Test
+- [Mock Service Worker](https://mswjs.io/) - API Mock
+- [PlayWright](https://playwright.dev/) - E2E Test
+
 ## 🔗 Features
 
 - Dashboard with informations about orders of company;
